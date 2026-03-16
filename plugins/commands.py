@@ -153,7 +153,7 @@ async def start(client, message):
                 file = getattr(info, file_type.value)
                 f_caption = getattr(info, 'caption', '')
                 if f_caption:
-                    f_caption = f"@VJ_Bots {f_caption.html}"
+                    f_caption = f"@KNMoviesHub17 -  {f_caption.html}"
                 old_title = getattr(file, "file_name", "")
                 title = formate_file_name(old_title)
                 size=get_size(int(file.file_size))
@@ -163,8 +163,8 @@ async def start(client, message):
                     except:
                         f_caption=f_caption
                 if f_caption is None:
-                    f_caption = f"@VJ_Bots {title}"
-                if STREAM_MODE == True:
+                    f_caption = f"@KNMoviesHub17 -  {title}"
+                if STREAM_MODE == False:
                     if info.video or info.document:
                         log_msg = info
                         fileName = {quote_plus(get_name(log_msg))}
@@ -231,13 +231,13 @@ async def start(client, message):
             media = getattr(msg, msg.media.value)
             title = formate_file_name(media.file_name)
             size=get_size(media.file_size)
-            f_caption = f"@VJ_Bots <code>{title}</code>"
+            f_caption = f"@KNMoviesHub17 -  <code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
                 try:
                     f_caption=CUSTOM_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='')
                 except:
                     return
-            if STREAM_MODE == True:
+            if STREAM_MODE == False:
                 if msg.video or msg.document:
                     log_msg = msg
                     fileName = {quote_plus(get_name(log_msg))}
