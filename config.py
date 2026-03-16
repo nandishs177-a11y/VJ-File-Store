@@ -18,13 +18,13 @@ def is_enabled(value, default):
         return default
       
 # Bot Information
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
+API_ID = int(environ.get("API_ID", "35329753"))
+API_HASH = environ.get("API_HASH", "ef6877467f57443ddd5a5c26377e0691")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # without @
+PICS = (environ.get('PICS', 'https://i.ibb.co/ym7N47X6/1296482719-28588.jpg')).split() # Bot Start Picture
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1296482719').split()]
+BOT_USERNAME = environ.get("BOT_USERNAME", "KNFilesStorebot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -35,8 +35,8 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "")
-DB_NAME = environ.get("DB_NAME", "techvjbotz")
+DB_URI = environ.get("DB_URI", "mongodb://nandishs177_db_user:Nandishs17@ac-rm8h8wp-shard-00-00.mqvhjgv.mongodb.net:27017,ac-rm8h8wp-shard-00-01.mqvhjgv.mongodb.net:27017,ac-rm8h8wp-shard-00-02.mqvhjgv.mongodb.net:27017/?ssl=true&replicaSet=atlas-kmzupv-shard-0&authSource=admin&appName=Cluster0")
+DB_NAME = environ.get("DB_NAME", "autofilter")
 
 # Auto Delete Information
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
