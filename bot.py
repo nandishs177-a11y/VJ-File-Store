@@ -20,8 +20,8 @@ logging.getLogger().setLevel(logging.INFO)
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
 
 # Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Subscribe YouTube Channel For Amazing Bot https://www.youtube.com/@KNMoviesHub17
+# Ask Doubt on telegram @Nandi177
 
 
 from pyrogram import Client, __version__
@@ -47,7 +47,7 @@ from TechVJ.utils.keepalive import ping_server
 from TechVJ.bot.clients import initialize_clients
 
 # Don't Remove Credit Tg - @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
+# Subscribe YouTube Channel For Amazing Bot 
 # Ask Doubt on telegram @KingVJ01
 
 
