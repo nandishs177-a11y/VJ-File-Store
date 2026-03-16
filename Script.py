@@ -13,9 +13,7 @@ class script(object):
     
     CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
 
-⚙️ sɪᴢᴇ : {file_size}
-
-Jᴏɪɴ [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ](https://t.me/vj_bots)</b>""" 
+⚙️ sɪᴢᴇ : {file_size}<b>""" 
 
 # Don't Remove Credit Tg - @VJ_Bots
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
