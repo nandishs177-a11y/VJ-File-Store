@@ -155,7 +155,7 @@ async def start(client, message):
                 if f_caption:
                     f_caption = f"@KNMoviesHub17 -  {f_caption.html}"
                 old_title = getattr(file, "file_name", "")
-                title = formate_file_name(old_title)
+                title = old_title
                 size=get_size(int(file.file_size))
                 if BATCH_FILE_CAPTION:
                     try:
